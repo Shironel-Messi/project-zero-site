@@ -1,0 +1,54 @@
+body {
+
+background:black;
+color:white;
+
+font-family:Arial;
+
+text-align:center;
+
+margin-top:100px;
+
+}
+
+h1 {
+
+font-size:60px;
+
+letter-spacing:5px;
+
+}
+
+.menu {
+
+margin-top:60px;
+
+}
+
+.button {
+
+display:block;
+
+margin:20px auto;
+
+width:200px;
+
+padding:15px;
+
+border:2px solid cyan;
+
+color:white;
+
+text-decoration:none;
+
+transition:0.3s;
+
+}
+
+.button:hover {
+
+background:cyan;
+
+color:black;
+
+}
