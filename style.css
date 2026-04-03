@@ -1,54 +1,58 @@
+/* ===== 全体設定 ===== */
 body {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
-background:black;
-color:white;
-
-font-family:Arial;
-
-text-align:center;
-
-margin-top:100px;
-
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
 }
 
+/* ===== タイトル ===== */
 h1 {
-
-font-size:60px;
-
-letter-spacing:5px;
-
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px white;
 }
 
+/* ===== 説明文 ===== */
+p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* ===== メイン画像 ===== */
+.main-image {
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* ===== メニュー配置 ===== */
 .menu {
-
-margin-top:60px;
-
+    margin-left: 50px;
+    text-align: left;
 }
 
+/* ===== ボタン ===== */
 .button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-right: 15px;
 
-display:block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
 
-margin:20px auto;
-
-width:200px;
-
-padding:15px;
-
-border:2px solid cyan;
-
-color:white;
-
-text-decoration:none;
-
-transition:0.3s;
-
+    transition: 0.3s;
 }
 
+/* ===== ホバー時（発光） ===== */
 .button:hover {
-
-background:cyan;
-
-color:black;
-
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white, 0 0 20px white;
 }
